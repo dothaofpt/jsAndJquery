@@ -1,0 +1,23 @@
+<!--Finding HTML Element by Id
+javaScript-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h2>Finding HTML Elements by Id</h2>
+ <p id="id01">Hello World!</p>
+ <p id="id02">Hello Sweden!</p>
+ <p id="id03">Hello japan!</p>
+ <p id="demo"></p>
+ <script>
+    //lay 1 the gan cho 1 bien;
+    const myElement = document.getElementById("id01");
+    //tao text vao the co id=demo+ bien vua duoc gan
+    document.getElementById("demo").innerHTMML="The text from the id01 paragraph is: "+ myElement.innerHTML;
+ </script>   
+</body>
+</html>
